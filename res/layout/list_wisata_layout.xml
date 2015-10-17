@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+
+
+    <Button
+        android:id="@+id/btn_wisata_alam"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="Wisata Alam" />
+
+    <Button
+        android:id="@+id/btn_wisata_budaya"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Wisata Budaya" />
+
+    <Button
+        android:id="@+id/btn_wisata_kuliner"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Wisata Kuliner" />
+
+   
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <Button
+        android:id="@+id/btn_ke_wisata"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center|center_vertical"
+        android:background="#000000"
+        android:drawableTop="@drawable/btn_go_to_wisata" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_alignParentTop="true"
+        android:text="Ke Wisata"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

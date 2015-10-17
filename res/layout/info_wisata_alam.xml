@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer_info_wisata_layout" />
+
+    <include
+        android:id="@+id/include2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/header_wisata_alam" />
+
+    <include
+        android:id="@+id/include3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="38dp"
+        layout="@layout/box_info_wisata" />
+
+    <include
+        android:id="@+id/btn_kealdig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        layout="@layout/button_go_to_listwisata_layout" />
+
+   <TextView
+       android:id="@+id/textaldig"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/include3"
+       android:layout_alignRight="@+id/include3"
+       android:layout_alignTop="@+id/include3"
+       android:layout_marginTop="33dp"
+       android:gravity="center"
+       android:text="@string/info_wisata_alam" />
+
+</RelativeLayout>

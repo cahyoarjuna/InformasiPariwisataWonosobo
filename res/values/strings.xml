@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Info Pariwisata Wonosobo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Versi">Versi 1.1</string>
+    <string name="copyright">Copyright 2013 CahyoArjuna</string>				
+    <string name="info_wisata_alam">  Wisata alam merupakan kegiatan rekreasi dan pariwisata yang memanfaatkan potensi alam untuk menikmati keindahan alam baik yang masih alami atau sudah ada usaha budidaya, agar ada daya tarik wisata ke tempat tersebut. </string>
+    <string name="info_wisata_budaya"> Wisata Budaya menurut Kamus Besar Bahasa Indonesia merupakan bepergian bersama-sama dng tujuan mengenali hasil kebudayaan setempat. Beberapa contoh wisata budaya meliputi upacara adat, seni pertunjukan adat, ritual - ritual, peninggalan nenek moyang dan lain sebagainya. </string>
+    <string name="info_wisata_kuliner"> Wisata kuliner adalah suatu perjalanan yang di dalamnya meliputi kegiatan mengonsumsi makanan lokal dari suatu daerah. </string>
+    
+    </resources>

@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/headerhome_root"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#0071BC" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/backr"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:layout_marginLeft="20dp"
+            android:text="MENU UTAMA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/headerhome_root"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_tentang"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/tentang"
+                android:text="Tentang" />
+
+            <Button
+                android:id="@+id/btn_wisata"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/wisata"
+                android:text="Wisata" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_hotel"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/hotel"
+                android:text="Hotel" />
+
+            <Button
+                android:id="@+id/btn_kuliner"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/kuliner"
+                android:text="Kuliner" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_peta"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/peta"
+                android:text="Peta" />
+
+            <Button
+                android:id="@+id/btn_budaya"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/budaya"
+                android:text="Budaya" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+

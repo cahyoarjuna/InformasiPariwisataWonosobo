@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infopariwisata"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.infopariwisata.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.infopariwisata.MenuUtamaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.infopariwisata.AWAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.infopariwisata.Tentang" >
+        </activity>
+        <activity android:name="com.infopariwisata.ListTempatWisata" >
+        </activity>
+        <activity android:name="com.infopariwisata.ListBudaya" >
+        </activity>
+        <activity android:name="com.infopariwisata.ListKuliner" >
+        </activity>
+        <activity android:name="com.infopariwisata.KetWisata" >
+        </activity>
+        <activity android:name="com.infopariwisata.Hotel" >
+        </activity>
+        <activity android:name="com.infopariwisata.Peta" >
+        </activity>
+    </application>
+
+</manifest>
